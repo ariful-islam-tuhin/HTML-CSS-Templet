@@ -1,0 +1,120 @@
+
+*{
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+ h1{
+    font-size: 2.5rem;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    margin: 0;
+    padding-top: 10px;    
+    
+} 
+h2{
+    font-size: 1.5rem;
+    text-align: center;
+}
+a{
+    color: white; 
+    font-size: 1.2rem;
+    text-decoration: none;
+    text-transform: uppercase;
+   
+    margin: 7px 0px;
+    padding: 10px;
+   
+
+}
+p{
+    font-size: 1.2rem;
+    text-align: justify;
+}
+
+.dotted-hr{
+    border:dotted 6px white;
+    border-bottom: none;
+    margin:20px auto;
+    width: 90px;
+    padding-top: 0px;
+   
+}
+    
+ /* [class*="col-"]{
+    float: left;
+    padding: 10px;
+}
+[class*="col-"]{
+    width: 100%;
+}  */
+/* ===========first tobbar start here =============*/
+
+/* .child-body{
+    margin: 0;
+    padding: 0;
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6uZDg2-LaeFqqulrSOta3K4135l4XEQq-OA&usqp=CAU) no-repeat;
+    background-size: cover; 
+
+} */
+
+body{
+    margin: 0;
+    padding: 0;
+    background:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSb7CH6YIS2VvJBhSeT5SL-aC_ENAsPDL7xKV5ktpEFs3pGb247l-R04QMgZ-pP5tiiL_A&usqp=CAU) no-repeat;
+    background-size: cover; 
+} 
+
+ .login-box {
+     width:280px;    
+     position:absolute; 
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%,-50%);
+ 
+} 
+.login-box h1{
+    float:left;
+    font-size:40px;
+    border-bottom:3px solid green;
+    margin-bottom:50px;
+    padding:13px 0;
+     
+}
+.tex-box{
+    width: 100%;
+    overflow:hidden;
+    font-size:20px;
+    padding:8px 0;
+    margin:8px 0;
+    border-bottom: 1px solid rgba(34, 219, 17, 0.397);
+   
+}
+.tex-box i {
+    width:26px;
+    float:left;
+    text-align:center;
+    color:white;
+}
+.tex-box input{
+    border:none;
+    outline:none;
+    background:none;
+    color:rgb(238, 238, 238);
+    font-size:18px;
+    width:80%;
+    float:left;
+    margin:0 10px;
+
+}
+
+.btn{
+    border:3px solid green;
+    padding:3px 5px;
+    text-align: center;
+    width: 100%;
+    background:none;
+    color:white;
+    font-size: 1rem;
+    margin-top:10px;
+}
